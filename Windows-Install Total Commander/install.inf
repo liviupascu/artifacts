@@ -1,0 +1,230 @@
+[Installation]
+program=Total Commander 64 bit
+progver=8.52a
+progvermajor=8
+progverminor=5210
+progname=Total Commander
+copyright=Copyright © 1993-2015 by Christian Ghisler, All Rights reserved
+url=http://www.ghisler.com
+publisher=Ghisler Software GmbH
+updatecheck=totalcmd64.exe
+// User for shortcut creation: Blank for current user, * for all users, or give user name
+UserName=
+
+[auto]
+// Set auto=1 for automatic installation, hidden=1 for invisible installer, with parameters below and from [Installation]
+auto=1
+hidden=0
+lang=1
+alllang=1
+iniloc=
+iniall=0
+mkgroup=1
+mkdesktop=1
+
+[Versioncheck]
+Vernum=2
+
+[Not running]
+1=WINDOW,Total Commander
+2=TTOTAL_CMD,Total Commander
+3=TTOTAL_CMD.UnicodeClass,Total Commander
+4=TApplication,Total Commander,Total Commander
+
+[Destination]
+Dir=c:\totalcmd
+Ini=wincmd.ini,Configuration,InstallDir
+IgnoreOldLocation=0
+
+[Languages]
+Count=18
+Default=1
+1=English
+2=Deutsch (German),d
+3=Français (French),f
+4=Ðóññêèé (Russian),u
+5=Nederlands (Dutch),n
+6=Dansk (Danish),k
+7=Norsk (Norwegian),o
+8=Italiano (Italian),i
+9=Svenska (Swedish),s
+10=Español (Spanish),e
+11=Èeský (Czech),z
+12=Polski (Polish),p
+13=Magyar (Hungarian),h
+14=Slovenský (Slovak),y
+15=Slovenski (Slovene),l
+16=ÇÑ±¹¾î (Korean),r
+17=¼òÌåÖÐÎÄ (Simplified Chinese),c
+18=Românã (Romanian),m
+
+[locale]
+0406=k
+0413=n
+040c=f
+140c=f
+080c=f
+0c0c=f
+100c=f
+180c=f
+0407=d
+1407=d
+1007=d
+0807=d
+0c07=d
+0410=i
+0810=i
+0414=o
+0814=o
+041D=s
+2c0a=e
+400a=e
+340a=e
+240a=e
+140a=e
+1c0a=e
+300a=e
+440a=e
+100a=e
+480a=e
+080a=e
+4c0a=e
+180a=e
+3c0a=e
+280a=e
+500a=e
+040a=e
+0c0a=e
+380a=e
+200a=e
+0415=p
+0405=z
+041b=y
+0424=l
+040e=h
+0418=m
+0419=u
+0412=r
+0204=c
+0304=c
+0404=c
+0504=c
+
+[LangName]
+langdir=language
+0=wcmd_eng
+d=wcmd_deu
+f=wcmd_fra
+n=wcmd_dut
+k=wcmd_dan
+o=wcmd_nor
+i=wcmd_ita
+s=wcmd_swe
+e=wcmd_esp
+z=wcmd_cz
+p=wcmd_pol
+h=wcmd_hun
+y=wcmd_sk
+l=wcmd_svn
+r=wcmd_kor
+m=wcmd_rom
+u=wcmd_rus
+c=wcmd_chn
+
+;Save data the user may have changed!
+[Backup data]
+1=default.bar
+2=no.bar
+
+[Install]
+1=install.cab,c
+
+[Installd]
+1=install.cab,c
+
+[Desktop]
+1=totalcmd64.exe","Total Commander 64 bit.lnk
+
+[Group]
+Groupname=Total Commander
+1=totalcmd64.exe","Total Commander 64 bit
+2=totalcmd.chm","Total Commander Help
+3=tcunin64.exe","Uninstall or Repair Total Commander
+
+[Groupd]
+Groupname=Total Commander
+1=totalcmd64.exe","Total Commander 64 bit
+2=totalcmd.chm","Total Commander Hilfe
+3=tcunin64.exe","Total Commander 64 bit Entfernen oder Reparieren
+
+[ini]
+1=wincmd.ini,configuration,languageini
+2=wincmd.ini,configuration,Mainmenu
+
+[inid]
+1=wincmd.ini,configuration,languageini,wcmd_deu.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_deu.mnu
+
+[inif]
+1=wincmd.ini,configuration,languageini,wcmd_fra.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_fra.mnu
+
+[inin]
+1=wincmd.ini,configuration,languageini,wcmd_dut.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_dut.mnu
+
+[inik]
+1=wincmd.ini,configuration,languageini,wcmd_dan.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_dan.mnu
+
+[inio]
+1=wincmd.ini,configuration,languageini,wcmd_nor.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_nor.mnu
+
+[inii]
+1=wincmd.ini,configuration,languageini,wcmd_ita.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_ita.mnu
+
+[inis]
+1=wincmd.ini,configuration,languageini,wcmd_swe.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_swe.mnu
+
+[inie]
+1=wincmd.ini,configuration,languageini,wcmd_esp.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_esp.mnu
+
+[iniz]
+1=wincmd.ini,configuration,languageini,wcmd_cz.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_cz.mnu
+
+[inip]
+1=wincmd.ini,configuration,languageini,wcmd_pol.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_pol.mnu
+
+[inih]
+1=wincmd.ini,configuration,languageini,wcmd_hun.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_hun.mnu
+
+[iniy]
+1=wincmd.ini,configuration,languageini,wcmd_sk.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_sk.mnu
+
+[inil]
+1=wincmd.ini,configuration,languageini,wcmd_svn.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_svn.mnu
+
+[inir]
+1=wincmd.ini,configuration,languageini,wcmd_kor.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_kor.mnu
+
+[inim]
+1=wincmd.ini,configuration,languageini,wcmd_rom.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_rom.mnu
+
+[iniu]
+1=wincmd.ini,configuration,languageini,wcmd_rus.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_rus.mnu
+
+[inic]
+1=wincmd.ini,configuration,languageini,wcmd_chn.lng
+2=wincmd.ini,configuration,Mainmenu,wcmd_chn.mnu
