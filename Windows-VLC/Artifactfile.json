@@ -6,7 +6,7 @@
     "Windows",
     "VLC"
   ],
-  "iconUri": "//cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/vlc.png",
+  "iconUri": "https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/vlc.png",
   "targetOsType": "Windows",
   "runCommand": {
     "commandToExecute": "powershell.exe -File startChocolatey.ps1 -PackageList vlc"
