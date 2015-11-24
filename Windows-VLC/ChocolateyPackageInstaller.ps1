@@ -1,25 +1,39 @@
 <##################################################################################################
+
     Description
     ===========
+
 	- This script does the following - 
 		- installs chocolatey
 		- installs specified chocolatey packages
+
 	- This script generates logs in the following folder - 
 		- %ALLUSERSPROFILE%\ChocolateyPackageInstaller-{TimeStamp}\Logs folder.
+
+
     Usage examples
     ==============
     
     Powershell -executionpolicy bypass -file ChocolateyPackageInstaller.ps1
+
+
     Pre-Requisites
     ==============
+
     - Ensure that the powershell execution policy is set to unrestricted (@TODO).
+
+
     Known issues / Caveats
     ======================
     
     - No known issues.
+
+
     Coming soon / planned work
     ==========================
+
     - N/A.    
+
 ##################################################################################################>
 
 #
